@@ -1,0 +1,42 @@
+name: Update NetEase Stats
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/gen_netease_stats.py"
+      - ".github/workflows/netease-stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate listening stats SVG
+        env:
+          NETEASE_UID: "538737104"
+          MUSIC_U: ${{ secrets.MUSIC_U }}
+        run: python scripts/gen_netease_stats.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/netease-stats.svg
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: refresh netease listening stats"
+            git push
+          fi
