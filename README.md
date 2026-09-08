@@ -86,14 +86,14 @@ ships when motivated. sleeps when not.
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28" height="28" /> pulse
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sorrow404Null&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true&bg_color=0b0708&title_color=ff4d6d&icon_color=e60026&text_color=e8d6da&ring_color=e60026" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sorrow404Null&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0b0708&title_color=ff4d6d&text_color=e8d6da" alt="langs" />
+  <img height="165" src="https://github-readme-stats-one-bice.vercel.app/api?username=sorrow404Null&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true&bg_color=0b0708&title_color=ff4d6d&icon_color=e60026&text_color=e8d6da&ring_color=e60026" alt="stats" />
+  <img height="165" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=sorrow404Null&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0b0708&title_color=ff4d6d&text_color=e8d6da" alt="langs" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.demolab.com/?user=sorrow404Null&theme=radical&hide_border=true&background=0b0708&ring=e60026&fire=ff4d6d&currStreakLabel=ff8a9a" alt="streak" />
+  <img src="https://streak-stats.demolab.com/?user=sorrow404Null&theme=radical&hide_border=true&background=0b0708&ring=e60026&fire=ff4d6d&currStreakLabel=ff8a9a" alt="streak" />
 </div>
 
 ---
