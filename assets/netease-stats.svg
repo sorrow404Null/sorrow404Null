@@ -32,5 +32,5 @@
 
   <rect x="490" y="38" width="120" height="78" rx="14" fill="url(#chip)" stroke="#7a2433"/>
   <text x="550" y="68" text-anchor="middle" fill="#c9a0a6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">DAYS ON</text>
-  <text x="550" y="98" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700">3348</text>
+  <text x="550" y="98" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="700">3349</text>
 </svg>
